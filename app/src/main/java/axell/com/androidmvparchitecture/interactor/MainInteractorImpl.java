@@ -6,6 +6,7 @@ import java.util.List;
 import axell.com.androidmvparchitecture.contract.MainContract;
 import axell.com.androidmvparchitecture.model.Friend;
 
+// Replace these implementations with database interactor (SQLite, Firebase, etc)
 public class MainInteractorImpl implements MainContract.Interactor {
 
     private List<Friend> friendList = new ArrayList<>();
